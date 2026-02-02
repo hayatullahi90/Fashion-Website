@@ -5,8 +5,10 @@ import Item from "../Item/Item";
 const Popular = () => {
   return (
     <div className="flex flex-col items-center gap-2 h-[90vh]">
-      <h1 className="text-gray-800 mt-10 font-bold text-4xl">POPULAR IN WOMEN</h1>
-      <hr className="w-40 h-2 rounded-xl bg-gray-600"/>
+      <h1 className="text-gray-800 mt-10 font-bold text-4xl">
+        POPULAR IN WOMEN
+      </h1>
+      <hr className="w-40 h-2 rounded-xl bg-gray-600" />
       <div className="mt-10 flex">
         {data_product.map((item, i) => {
           return (
